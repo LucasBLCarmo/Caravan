@@ -1,2 +1,2 @@
-# Site fictício Caravan com Bootstrap (HTML + CSS + Javascript)
-sgxeghgtfhd
+# Projeto Caravan
+Site fictício com Bootstrap (HTML + CSS + Javascript)
