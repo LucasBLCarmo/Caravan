@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Caravan - Local</title>
+
+    <link rel="stylesheet" href="./bootstrap-a.css">
+    <link rel="stylesheet" type="text/css" href="./projetostyle1.css">
+</head>
+
+<body>
+
+    <!--Abre Modal-->
+
+    <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="#labelLogin"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="labelLogin">Entre na Sua Conta</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <form>
+                        <div class="form-group">
+                            <label for="LoginEmail">Endereço de Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1">
+                        </div>
+                        <div class="form-group">
+                            <label for="LoginSenha">Senha</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Manter-me Conectado</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Logar</button>
+                        <small id="emailHelp" class="form-text text-muted">Esqueceu a senha? <a href="#">Clique
+                                Aqui.</a></small>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Fecha Modal-->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light py-3 fixed-top">
+        <a href="projeto_parte1.html" class="navbar=brand">
+            <img src="./img1/caravan.svg" alt="Caravan">
+        </a>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item dropdown">
+
+                    <a class="nav-link dropdown-toggle active" href="locais.html" role="button" id="dropmenu"
+                        aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">Locais
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropmenu">
+                        <a class="dropdown-item" href="#">California</a>
+                        <a class="dropdown-item" href="#">Paris</a>
+                        <a class="dropdown-item" href="dublin.html">Dublin</a>
+                    </div>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Início</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="planos.html">Planos</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="btn btn-outline-primary" data-toggle="modal" data-target="#modalLogin" href="#">Login</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="btn btn-primary ml-md-2 mt-3 mt-md-0" href="#">Cadastre-se</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+
+
+
+    <section class="container text-center">
+
+
+        <div class="py-5">
+            <span class="h6 d-block">O MELHOR DESTINO DA SUA VIAGEM</span>
+            <h1 class="display-4 text-primary">Descubra Dublin</h1>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md">
+                <img class=" img-fluid mb-4" src="./img1/local/foto-1.jpg" alt="foto1">
+                <img class="img-fluid mb-4" src="./img1/local/foto-2.jpg" alt="foto2">
+                <img class="img-fluid mb-4" src="./img1/local/foto-3.jpg" alt="foto3">
+            </div>
+
+
+
+            <div class="col-md">
+                <img class="img-fluid mb-4" src="./img1/local/foto-4.jpg" alt="foto4">
+                <img class="img-fluid mb-4" src="./img1/local/foto-5.jpg" alt="foto5">
+            </div>
+
+
+            <div class="col-md">
+                <img class="img-fluid mb-4" src="./img1/local/foto-6.jpg" alt="foto6">
+                <img class="img-fluid mb-4" src="./img1/local/foto-7.jpg" alt="foto7">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="container text-center">
+
+        <div class="py-5">
+            <span class="h6 d-block">DESCUBRA O QUE ACONTECE NA CIDADE</span>
+            <h1 class="display-4 text-primary">Próximos Eventos</h1>
+        </div>
+
+
+        <table class="table table-hover table-responsive-md">
+            <thead>
+                <tr>
+                    <th scope="col">Data</th>
+                    <th scope="col">Evento</th>
+                    <th scope="col">Local</th>
+                    <th scope="col">Ticket</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">23/10</th>
+                    <td>Julien Baker</td>
+                    <td>The Academy</td>
+                    <td><a class="btn btn-outline-secondary btn-sm" href="#">Comprar Ticket</a></td>
+                </tr>
+                <tr>
+                    <th scope="row">23/10</th>
+                    <td>Julien Baker</td>
+                    <td>The Academy</td>
+                    <td><a class="btn btn-outline-secondary btn-sm" href="#">Comprar Ticket</a></td>
+                </tr>
+                <tr>
+                    <th scope="row">23/10</th>
+                    <td>Julien Baker</td>
+                    <td>The Academy</td>
+                    <td><a class="btn btn-outline-secondary btn-sm" href="#">Comprar Ticket</a></td>
+                </tr>
+
+
+                <tr>
+                    <th scope="row">23/10</th>
+                    <td>Julien Baker</td>
+                    <td>The Academy</td>
+                    <td><a class="btn btn-outline-secondary btn-sm" href="#">Comprar Ticket</a></td>
+                </tr>
+                <tr>
+                    <th scope="row">23/10</th>
+                    <td>Julien Baker</td>
+                    <td>The Academy</td>
+                    <td><a class="btn btn-outline-secondary btn-sm" href="#">Comprar Ticket</a></td>
+                </tr>
+                <tr>
+                    <th scope="row">23/10</th>
+                    <td>Julien Baker</td>
+                    <td>The Academy</td>
+                    <td><a class="btn btn-outline-secondary btn-sm" href="#">Comprar Ticket</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </section>
+
+
+    <footer class=" bg-dark text-white">
+
+        <div class="container py-4">
+
+            <div class="row">
+
+                <div class="col-md-3 col-6">
+
+                    <h4 class="h6">PÁGINAS</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="planos.html">Planos</a></li>
+                        <li><a href="contatos.html">Contato</a></li>
+                        <li><a href="inscevase.html">Inscreva-se</a></li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="col-md-3 col-6">
+
+                    <h4 class="h6">LOCAIS</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="california.html">California</a></li>
+                        <li><a href="paris.html">París</a></li>
+                        <li><a href="dublin.html">Dublin</a></li>
+
+                    </ul>
+
+                </div>
+
+
+
+                <div class="col-md-4 col-6 mt-3 mt-md-0">
+
+                    <h4 class="h6">DADOS DE CONTATO</h4>
+
+                    <ul class="list-unstyled text-secondary">
+                        <li>caravan@caravan.com.br</li>
+                        <li>21 99999-9999</li>
+                        <li>De Seg. à Sex. das 8h às 18h</li>
+                    </ul>
+
+                </div>
+
+
+
+
+                <div class="col-md-2 col-6 mt-3 mt-md-0">
+
+                    <h4 class="h6">REDES SOCIAIS</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2 "><a class="btn btn-outline-secondary btn-block btn-sm" href="facebook.html"
+                                style="max-width: 140px;">Facebook</a>
+                        </li>
+                        <li class="mb-2"><a class="btn btn-outline-secondary btn-block btn-sm" href="twitter.html"
+                                style="max-width: 140px;">Twitter</a>
+                        </li>
+                        <li class="mb-2"><a class="btn btn-outline-secondary btn-block btn-sm" href="youtube.html"
+                                style="max-width: 140px;">Youtube</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="bg-primary text-center py-3">
+            <p class="mb-0">Caravan © 2017. Alguns direitos reservados.</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="./jquery-3.6.0.min.js"></script>
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./projetoscript1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+
+
+body {
+  padding-top: 75px;
+}
+
+
+nav {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,.08);
+
+}
+
+
+
+
+#backimage {
+    background: url('./img1/bgquote.jpg'); center center;
+    background-size: cover;
+}
+
+.icone {
+    height: 100px;
+}
+
+
+@media (max-width: 767px) {
+
+#backimage .display-4 {
+
+font-size: 2.5rem;
+
+}
+
+.fixed-top {
+
+position: relative;
+
+}
+
+body {
+ padding: 0;
+}
+
+#cadastro {
+
+    margin: 0%;
+
+}
+
+
+}
+
+
+.box-shadow {
+    box-shadow: 0 1.5px 3.5px 0.3px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.lista-plano li + li {
+    border-top: 1px solid rgba(0,0,0,.2);
+}
+
+
+
+
+.lista-plano li {
+padding: 1rem;
+
+}
